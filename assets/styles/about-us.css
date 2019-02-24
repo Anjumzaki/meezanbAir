@@ -1,0 +1,163 @@
+h1 ,h2,h3,h4,h5,h6,.color-blue{
+  color:   #316094
+}
+p{
+    color: #58595B;
+
+}
+.gray{
+    color: #58595B;
+}
+.red-color{
+    color: #D2451E;
+}
+.margin-top-50{
+    margin-top: 50px;
+}
+header{
+    margin-top: 100px;
+}
+.about-img{
+    position: relative;
+    top: -60px;
+    z-index: 1;
+}
+.indent{
+    text-indent: 30px;
+    font-family: 'Montserrat';
+    font-size: 13px
+}
+
+.timline1{
+  color:   #316094;
+  text-align: right !important;
+  z-index: 2;
+  min-width: 350px;
+  position: relative;
+  right: 87px;
+  top: -106px;
+  font-family: 'Montserrat';
+}
+.font-mons{
+  font-family: 'Montserrat';
+
+}
+.timeline2{
+    position: relative;
+  right: 160px;
+  top: 20px;
+}
+.timeline3,.timeline4{
+  color:   #316094;
+    z-index: 2;
+    min-width: 350px;
+    font-family: 'Montserrat'
+}
+.timeline3{
+    position: relative;
+    right:  153px;
+    bottom: 104px;
+}
+.timeline4{
+    min-width: 240px;
+}
+.timeline4{
+    position: relative;
+    right:  78px;
+    bottom: 0px;
+}
+.spec-list li::after{
+    display: inline-block;
+    content: '';
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    height: 0.75rem;
+    width: 0.75rem;
+    background-color: #D2451E;
+    margin-left: 15px;
+}
+.spec-list li{
+    list-style-type: none;
+}
+
+.spec-list1 li::before{
+    display: inline-block;
+    content: '';
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    height: 0.75rem;
+    width: 0.75rem;
+    background-color: #D2451E;
+    margin-right: 15px;
+}
+.spec-list1 li{
+    list-style-type: none;
+}
+.meezab-thing li::before{
+    display: inline-block;
+    content: '';
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    height: 0.75rem;
+    width: 0.75rem;
+    background-color: #D2451E;
+    margin-right: 15px;
+}
+.meezab-thing li{
+    list-style-type: none;
+    line-height: 2em;
+}
+#ceo .container .row{
+    text-align: left;
+    padding-bottom: 100px !important;
+}
+.name{
+    text-indent: 30%;
+}
+#cco{
+    margin-top: 100px;
+    text-align: left;
+    margin-bottom: 100px;
+}
+.tex-lef{
+    text-align: left !important;
+}
+.loc-divs{
+    width: 60%;
+}
+.loco{
+    margin:0 !important;
+}
+.locs .row .col-12{
+    margin-top: 100px !important;
+}
+.inner-second-main{
+    text-align: left !important;
+}
+@media screen and (max-width: 640px) {
+    header{
+        margin-top: 60px;
+    }
+    .about-img{
+        position: relative;
+        top: 0px;
+
+    }
+    #ceo{
+    margin-bottom: 50px;
+
+    }
+    #cco{
+        margin-top: 50px;
+    margin-bottom: 50px;
+
+    }
+    .name{
+        text-indent: 0px;
+    }
+}
+@media screen and (min-width: 801px) {
+  .margin-bot{
+      margin-bottom: 100px !important;
+  }
+}

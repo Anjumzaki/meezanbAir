@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Meezab Air</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/styles/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+<body>
+  <div   id="overlay" onclick="closeNav(); closeDNav();"></div>
+  <header>
+
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+        <li data-target="#carousel" data-slide-to="3"></li>
+
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url('assets/styles/image/1.jpg')">
+          <div class="carousel-caption  d-md-block">
+            <h2 class="display-4">Experience</h2>
+            <p class="lead">New Possibilities...</p>
+            <button class="btn"></button>
+          </div>
+        </div>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('assets/styles/image/2.png')">
+          <div class="carousel-caption d-md-block">
+            <h2 class="display-4">Journey, <br>
+              Faith, <br>
+              History</h2>
+            <p class="lead">Turkey Umra Package</p>
+          </div>
+        </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('assets/styles/image/3.png')">
+          <div class="carousel-caption  d-md-block">
+            <h2 class="display-4">Wander. <br>
+              Explore. <br>
+              Discover. <br></h2>
+            <p class="lead">Glimpse of the World.</p>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image: url('assets/styles/image/4.png')">
+          <div class="carousel-caption d-md-block">
+            <h2 class="display-4">Where East <br>
+              Meets West</h2>
+            <p class="lead">Istanbul Turkey</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="myNav">
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav(); closeDNav();" >&times;</a>
+      <div class="defaultnav" id="d-nav">
+      <a class="fofnav"  href="index.html">HOME</a>
+      <a class="oofnav" href="about-us.html">ABOUT MEEZAB</a>
+      <a class="oofnav" id="dropdown-trigger" onclick="openDNav()" href="#">TRAVELS <i class="fas fa-caret-down"></i></a>
+      <a class="oofnav" href="academy.html">MEEZAZB ACADEMY</a>
+      <a class="oofnav" href="news.html">NEWS</a>
+      <a class="oofnav" href="contact-us.html">CONTACT</a>
+    </div>
+      <div class="dropdown-container dis-none" id="s-nav">
+    <a class="fofnav" style="  visibility: hidden;"  href="#">HOME</a>
+          <a  style="  visibility: hidden;"  class="oofnav" href="#">ABOUT MEEZAB</a>
+      <a class="oofnav" id="dropdown-trigger" onclick="closeDNav()" href="#">TRAVELS <i class="fas fa-caret-right"></i></a>
+        <a class="oofnav soofnav" href="#">PACKAGES</a>
+        <a class="oofnav soofnav" href="#">DESTINATION</a>
+        <a class="oofnav soofnav" href="#">VISA INFORMATION</a>
+        <a class="oofnav soofnav" href="#">VACATION BUILDER</a>
+      </div>
+      <li class="social-links-nav">
+         <a href=""> <i class="fab fa-linkedin" ></i></a>
+         <a href="">  <i class="fab fa-facebook-square" ></i></a>
+         <a href="">  <i class="fab fa-instagram"></i></a>
+         <a href="">  <i class="fab fa-youtube" ></i></a>
+        </li>
+    </div>
+
+    <span class="ham-of-nav nav1" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    <span class="ham-of-nav insta">
+      <i class="fab fa-instagram" ></i>
+    </span>
+  </div>
+  <div class="main-logo">
+    <img src="assets/styles/image/logo.svg" alt="">
+  </div>
+  <span class=" insta-formob">
+      <i class="fab fa-instagram" style="color:#316094"></i>
+    </span>
+  <div class="container first-div ">
+    <div class="row" style="text-align:center">
+      <div class="col-12 col-lg-3">
+        <p>
+          <img src="assets/styles/icons/kalp_icon.svg" alt=""> <br>
+          <span class="inner-main-one">+123123123</span> <br>
+          <span class="inner-main-two">HAPPY TRAVELLERS</span>
+        </p>
+        <p><img src="assets/styles/icons/kisi_icon.svg" alt=""><br>
+          <span class="inner-main-one">+123123123</span> <br>
+          <span class="inner-main-two">TOTAL DESTINATIONS</span> </p>
+        <p> <img src="assets/styles/icons/loc_icon.svg" alt=""><br>
+          <span class="inner-main-one">+123123123</span> <br>
+          <span class="inner-main-two">NUMBER OF EMPLOYEE</span> </p>
+      </div>
+      <div class="col-12 col-lg-4 grid-div-two">
+        <h2>OUR ESSENCE</h2>
+        <p>Over the last years we have built a promising company that is used to best practices and newest progress in
+          field of tourism and travel services. Key to all our achievements and future goals are a strong corporate
+          culture based on teamwork, communication, professionalism and business ethics.</p>
+        <h2>OUR PROMISE</h2>
+        <p>Meezab Group, a parent company is a business group which is conducted with years of tradition and based in
+          Lahore, Pakistan. Right away with the opportunities of growth in the field we are open to widen our services
+          to new countries and regions such as Middle-East and South-eastern Asia
+          .</p>
+      </div>
+      <div class="col-12 col-lg-5 div-for-img">
+        <img class="three-one-image" src="assets/styles/image/adventure1.png" alt="">
+        <img class="three-two-image" src="assets/styles/image/adventure.png" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="" id="second">
+     
+    <img style="width:100%" src="assets/styles/image/gri_sekil.png" alt=""> <br>
+    <div style="width:100%; background-color: #fbfbfb; margin: -10px;">
+      <img class="mee-servives" src="assets/styles/image/meezabservices.png" alt="">
+    </div>
+    <div class="inner-second-main container">
+      <div class="row wrap-second">
+        <div class="col-6 col-md-6 col-lg-6">
+          <img src="assets/styles/image/numbers/1.svg" alt="">
+          <h5 style="color:#5FA887">INTERNATIONAL AIRLINES <br> RESERVATION & TICKETING</h5>
+          <p class="para-for-ser">A complete 360 degree Service to your reservations and online ticketing.</p>
+        </div>
+        <div class="col-6">
+          <img src="assets/styles/image/numbers/2.svg" alt="">
+          <h5 style="color:#EFA518">WORLDWIDE HOTEL <br> RESERVATION</h5>
+          <p class="para-for-ser"> Witness the meezab network All over the world from the View of world class hotels.
+          </p>
+        </div>
+
+        <div class="col-6">
+          <img src="assets/styles/image/numbers/3.svg" alt="">
+          <h5 style="color:#E8804D">INTEREST GROUPS</h5>
+          <p class="para-for-ser"> Travel in class with meezab air.</p>
+        </div>
+        <div class="col-6">
+          <img src="assets/styles/image/numbers/4.svg" alt="">
+          <h5 style="color:#DA635A">CHARTED FLIGHTS</h5>
+          <p class="para-for-ser"> A personalized travel system for your Corporate business or pleasure.</p>
+        </div>
+
+
+        <div class="col-6 col-md-6 col-lg-6">
+          <img src="assets/styles/image/numbers/5.svg" alt="">
+          <h5 style="color:#5FA887">TOUR AND HOLIDAYS</h5>
+          <p class="para-for-ser"> Special holiday packages with customized travel plan.</p>
+        </div>
+        <div class="col-6">
+          <img src="assets/styles/image/numbers/6.svg" alt="">
+          <h5 style="color:#785E6C">VISA SERVICES</h5>
+          <p class="para-for-ser"> All visa and documentation guidence and its implementation to your service.</p>
+        </div>
+        <div class="col-6">
+          <img src="assets/styles/image/numbers/7.svg" alt="">
+          <h5 style="color:#EFA518">Network</h5>
+          <p class="para-for-ser"> Explore meezab’s network although world, developing and gaining more potential
+            everyday.</p>
+        </div>
+        <div class="col-6">
+          <img src="assets/styles/image/numbers/8.svg" alt="">
+          <h5 style="color:#008080">SPECIAL HOLIDAY</h5>
+          <p class="para-for-ser"> Seasonal or personalized travel needs such as hiking, Swimming, Exploration and much
+            more.</p>
+        </div>
+        <div class="col-6">
+          <img src="assets/styles/image/numbers/9.svg" alt="">
+          <h5 style="color:#DA635A">CRUISE WORLDWIDE</h5>
+          <p class="para-for-ser"> Giving you the best enjoying alternates to any location you decide with us.</p>
+        </div>
+        <div class="col-6">
+          <img src="assets/styles/image/numbers/10.svg" alt="">
+          <h5 style="color:#785E6C">Licences</h5>
+          <p class="para-for-ser">Our authentication and Our essence throughout.</p>
+        </div>
+      </div>
+    <br>
+    </div>
+
+    <div class="inner-second-for-web ">
+      <div class="container">
+      <div class="row">
+        <div class="col-6 col-md-4 col-lg-4 second-div-ser" >
+          <div class="serv-web">
+          <h5 style="color:#5FA887">INTERNATIONAL AIRLINES <br> RESERVATION & TICKETING</h5>
+          <p class="para-for-ser">A complete 360 degree Service to your reservations and online ticketing.</p>
+        </div>
+        <div class="serv-web">
+          <h5 style="color:#EFA518">WORLDWIDE HOTEL <br> RESERVATION</h5>
+          <p class="para-for-ser"> Witness the meezab network All over the world from the View of world class hotels.
+          </p>
+        </div>
+
+        <div class="serv-web">
+          <h5 style="color:#E8804D">INTEREST GROUPS</h5>
+          <p class="para-for-ser" style="margin-bottom:100px;"> Travel in class with meezab air.</p>
+        </div>
+        <div class="serv-web">
+          
+        <h5 style="color:#5FA887">TOUR AND HOLIDAYS</h5>
+        <p class="para-for-ser" style="margin-bottom:80px;"> Special holiday packages with customized travel plan.</p>
+         
+        </div>
+        <div class="serv-web">
+            <h5 style="color:#EFA518">Network</h5>
+            <p class="para-for-ser"> Explore meezab’s network although world, developing and gaining more potential
+              everyday.</p>
+        </div>
+      </div>
+      <div class="img-forser col-4 col-md-4 col-lg-4" style="text-align:center">
+        <img style="width:100%; max-width: 250px; margin: auto;" src="assets/styles/image/service_sekil.png" alt="">
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-4 iner-2nd" style="margin-top:10px;">    
+        <div class="serv-web">
+            <h5 style="color:#DA635A">CHARTED FLIGHTS</h5>
+            <p class="para-for-ser"> A personalized travel system for your Corporate business or pleasure.</p>
+      
+        </div>
+        <div class="serv-web">
+            <h5 style="color:#785E6C">VISA SERVICES</h5>
+            <p class="para-for-ser"> All visa and documentation guidence and its implementation to your service.</p>
+         
+        </div>
+        <div class="serv-web">
+          <h5 style="color:#008080">SPECIAL HOLIDAY</h5>
+          <p class="para-for-ser"> Seasonal or personalized travel needs such as hiking, Swimming, Exploration and much
+            more.</p>
+        </div>
+        <div class="serv-web">
+          <h5 style="color:#DA635A">CRUISE WORLDWIDE</h5>
+          <p class="para-for-ser"> Giving you the best enjoying alternates to any location you decide with us.</p>
+        </div>
+        <div class="serv-web">
+          <h5 style="color:#785E6C">Licences</h5>
+          <p class="para-for-ser">Our authentication and Our essence throughout.</p>
+        </div>
+      </div>
+    <br>
+    </div>
+  </div>
+</div>
+</div>
+
+  <div id="third-div">
+      <img class="rotate-180" style="width:100%" src="assets/styles/image/koyu_gri_sekil.png" alt=""> <br>
+    <div class="container" >
+      <div class="row" >
+        <div class="col-12">
+          <a href="">
+            <div class="btn-for-meez"> <span class="ex">Explore</span> <br> <span class="des"> All Destinations</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 about-div contforspac">
+
+          <img src="assets/styles/image/co_travel.png" alt="">
+          <div class="topCentered">
+            <span style="font-size:1.9rem;">CORPORATE </span><span> TRAVEL</span>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 m-academy contforspac">
+
+          <img src="assets/styles/image/m_academy.png" alt="">
+          <div class="topCentered">
+            <span style="font-size:1.9rem; ">MEEZAB </span><span> ACADEMY</span>
+          </div>
+        </div>
+        <div class="col-12 pat">
+          <h3>Our Partners</h3>
+        </div>
+        <div class="col-12 col-md-6 about-div contforspac">
+
+          <img src="assets/styles/image/partners/hotels.png" alt="">
+          <div class="centered">HOTELS</div>
+        </div>
+        <div class="col-12 col-md-6 m-academy contforspac">
+
+          <img src="assets/styles/image/partners/airlines.png" alt="">
+          <div class="centered">AIRLINES</div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="partners container">
+      <div class="row" id="hotels">
+        <div class="col-4 col-md-4 airlines">
+          <img src="assets/styles/image/partners/hotels/Hilton-Hotels-Logo.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines">
+          <img src="assets/styles/image/partners/hotels/intercontinental.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines">
+          <img src="assets/styles/image/partners/hotels/Ramada-Plaza.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines">
+          <img src="assets/styles/image/partners/hotels/Holiday_Inn_Logo.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines">
+          <img src="assets/styles/image/partners/hotels/four-seasons.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines">
+          <img src="assets/styles/image/partners/hotels/Shangri-La-Hotel-logo.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines">
+          <img src="assets/styles/image/partners/hotels/radisson.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines">
+          <img src="assets/styles/image/partners/hotels/abeer.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines">
+          <img src="assets/styles/image/partners/hotels/nasar.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines">
+          <img src="assets/styles/image/partners/hotels/millennium.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines">
+          <img src="assets/styles/image/partners/hotels/sheraton.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines">
+          <img src="assets/styles/image/partners/hotels/conrad.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines">
+          <img src="assets/styles/image/partners/hotels/pulman.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines">
+          <img src="assets/styles/image/partners/hotels/movenpick.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines">
+          <img src="assets/styles/image/partners/hotels/crowne.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines">
+          <img src="assets/styles/image/partners/hotels/accor.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines">
+          <img src="assets/styles/image/partners/hotels/shaza.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines">
+          <img src="assets/styles/image/partners/hotels/taqwa.svg" alt="">
+        </div>
+      </div>
+      
+      <div class="row borderforpone">
+        <div class="col-4 col-md-4 airlines" id="airlines">
+          <img src="assets/styles/image/partners/airlines/flydubai-logo.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines" id="airlines">
+          <img src="assets/styles/image/partners/airlines/pakistan_air.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines" id="airlines">
+          <img src="assets/styles/image/partners/airlines/singapore-airlines.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines" id="airlines">
+          <img src="assets/styles/image/partners/airlines/etihad_air.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines" id="airlines">
+          <img src="assets/styles/image/partners/airlines/Qatar_Airways.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines" id="airlines">
+          <img src="assets/styles/image/partners/airlines/gulf-air-logo2.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines" id="airlines">
+          <img src="assets/styles/image/partners/airlines/airblue.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines" id="airlines">
+          <img src="assets/styles/image/partners/airlines/Thai_Airways_Logo.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines" id="airlines">
+          <img src="assets/styles/image/partners/airlines/Air_China_Logo.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines" id="airlines">
+          <img src="assets/styles/image/partners/airlines/kenya_air.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines" id="airlines">
+          <img src="assets/styles/image/partners/airlines/flynas.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines" id="airlines">
+          <img src="assets/styles/image/partners/airlines/tr_air.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines" id="airlines">
+          <img src="assets/styles/image/partners/airlines/air_france.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines" id="airlines">
+          <img src="assets/styles/image/partners/airlines/kuwait_air.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines" id="airlines">
+          <img src="assets/styles/image/partners/airlines/saudia_air.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines" id="airlines">
+          <img src="assets/styles/image/partners/airlines/srilanka_air.svg" alt="">
+        </div>
+        <div class="col-4 col-md-4 airlines" id="airlines">
+          <img src="assets/styles/image/partners/airlines/emirates.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer id="myFooter">
+      <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-12">
+                <img class="log-foot" src="assets/styles/image/logo.svg" alt="">
+            </div>
+                      
+              <div class="col-12 col-md-3">
+                  <h5>CONTACT US</h5>
+                  <ul>
+                      <li>+92 42 111-111-858</li>
+                  </ul>
+                  
+                  <h5>EMAIL</h5>
+                  <ul>
+                      <li>travels@meezabair.com</li>
+                     
+                  </ul>
+              </div>
+              <div class="col-12 col-md-3">
+
+                  <h5>SOCIAL MEDIA</h5>
+                  <ul>
+                      <li>
+                        <i class="fab fa-linkedin" style="font-size:24px;margin:5px;"></i>
+                        <i class="fab fa-facebook-square" style="font-size:24px;margin:5px;"></i>
+                        <i class="fab fa-instagram" style="font-size:24px;margin:5px;"></i>
+                        <i class="fab fa-youtube" style="font-size:24px;margin:5px;"></i>
+                      </li>
+                    
+                  </ul>
+                 
+              </div>
+              <div class="col-6 col-md-3">
+                  
+                  <ul>
+                      <li><a href="#">HOME</a></li>
+                      <li><a href="#">DESTINATIONS</a></li>
+                      <li><a href="#">PACKAGES</a></li>
+                      <li><a href="#">MEEZAB ACADEMY</a></li>
+                      <li style="line-height:1.5"><a href="#">VACATION BUILDER</a></li>
+                      <li style="line-height:3.5; color:gray">Copyright 2019</li>      
+                  </ul>
+              </div>
+              <div class="col-6 col-md-2">
+                  
+                  <ul>
+                      <li><a href="about-us.html">ABOUT MEEZAB</a></li>
+                      <li><a href="#">                          VISA INFORMATION</a></li>
+                      <li><a href="#">NEWS</a></li>
+                      <li><a href="#">CONTACT</a></li>
+                      <li style="line-height:1.5; color:gray">Vevolve Design Studio</li>
+
+                      
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+
+
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="assets/scripts/script1.js"> </script>
+
+</body>
+
+</html>

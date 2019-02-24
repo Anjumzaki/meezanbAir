@@ -1,0 +1,16 @@
+.three-two-image{
+    padding: 15px;
+}
+.loco{
+    float: left;
+}
+.loco img{
+    height: 120px;;
+}
+.pad-tb-10{
+    padding-top: 40px !important;
+    padding-bottom: 10px !important;
+}
+.loco h6{
+    font-size: 13px;
+}
