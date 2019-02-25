@@ -133,16 +133,77 @@ header{
 }
 .inner-second-main{
     text-align: left !important;
+    width: 100%;
 }
+.info-for-mob{
+    position: relative;
+    top: -70px;
+}
+
+
+@media screen and (min-width: 701px) {
+
+    .for-info-cap{
+        position: relative;
+        top: 200px;
+        right: 200px;
+    }
+    .in-for-in2{
+        position: relative;
+        top: 45px;
+        right: 50px;
+    }
+
+  .for-info-cap1{
+        position: relative;
+        top: 180px;
+        right: 100px;
+        width: 200px;
+    }
+    .in-for-in21{
+        position: relative;
+        top: 55px;
+        left: 50px;
+    }
+
+    #second{
+        height:  1700px;;
+    }
+}
+
 @media screen and (max-width: 640px) {
     header{
         margin-top: 60px;
     }
+    .for-info-cap1{
+        position: relative;
+        top: 189px;
+        right: -60px;
+        width: 220px;
+    }
+    
     .about-img{
         position: relative;
         top: 0px;
-
     }
+    .in-for-in21{
+        position: relative;
+        top: 50px;
+        left: 50px;
+        width: 200px;
+    }
+    .for-info-cap{
+        float: left;
+        position: relative;
+        top: 200px;
+        right: 10px
+    }
+    .in-for-in2{
+        position: relative;
+        right: 70px;
+        top: 45px;
+    }
+    
     #ceo{
     margin-bottom: 50px;
 
