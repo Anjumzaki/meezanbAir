@@ -470,14 +470,26 @@ body {
     .insta-formob{
       display: none !important;
     }
+    #hotels{
+      display: none;
+      
+    }
+  
   }
 
   @media screen and (max-width: 640px) {
+    #hotelsforweb{
+      display: none;
+    }
+   
     .fofnav{
       margin-top: 50%;
       margin-left: 5%;
       font-size: 15px !important;
     }
+    #myFooter{
+      margin-top: 100px;
+  }
     .social-links-nav{
     
       margin-left: 20%;

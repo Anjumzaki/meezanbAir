@@ -40,3 +40,17 @@ interval: 1500
 })   
       });
      
+      var hotelsimgs = document.getElementById('hotels12');
+      var hotelDiv = document.getElementById('with-hotel');
+      $(window).resize(function() {
+        var width = $(window).width();
+        var height = $(window).height();
+      
+        if(width>640){
+          hotelsimgs.remove();
+        }
+        else{
+          document.getElementById('for-append').innerHTML(hotelsimgs)
+        }
+      
+      })

@@ -5,6 +5,7 @@ p{
     color: #58595B;
 
 }
+
 .gray{
     color: #58595B;
 }
@@ -141,6 +142,7 @@ header{
 }
 
 
+
 @media screen and (min-width: 701px) {
 
     .for-info-cap{
@@ -175,6 +177,13 @@ header{
     header{
         margin-top: 60px;
     }
+    .mee-servives{
+        width: 80%;
+    }
+    .meezab-thing{
+        font-size: 12px;
+    }
+    
     .for-info-cap1{
         position: relative;
         top: 189px;
@@ -190,7 +199,7 @@ header{
         position: relative;
         top: 50px;
         left: 50px;
-        width: 200px;
+        width: 175px;
     }
     .for-info-cap{
         float: left;
