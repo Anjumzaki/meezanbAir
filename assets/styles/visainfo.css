@@ -1,0 +1,11 @@
+
+.meezab-thing li::before{
+  
+    height:7px;
+    width: 7px;
+    background-color:     #316094;
+    margin-right: 10px;
+}
+.meezab-thing{
+    font-size: 13px;
+}

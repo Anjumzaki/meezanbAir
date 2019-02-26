@@ -470,14 +470,16 @@ body {
     .insta-formob{
       display: none !important;
     }
-    #hotels{
-      display: none;
-      
-    }
-  
+    
+     
   }
-
+  #hotels12{
+    display: none;
+  }
   @media screen and (max-width: 640px) {
+    #hotels12{
+      display: inline-block;
+    }
     #hotelsforweb{
       display: none;
     }
@@ -696,4 +698,7 @@ body{
 #myFooter{
  flex: 0 0 auto;
  -webkit-flex: 0 0 auto;
+}
+.text-cent{
+  text-align: center;
 }

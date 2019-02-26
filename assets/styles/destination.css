@@ -1,0 +1,66 @@
+#second{
+    position: relative;
+    top: -500px;
+}
+.new1{
+    left: 44%;
+}
+@media screen and (min-width: 701px) and (max-width : 900px){
+#second {
+    height: 2299px;
+    top: -177px;
+}
+.topCentered{
+    font-size: 2.2em;
+}
+.three-two-image {
+    max-width: 2000px
+}
+h1{
+    font-size: 1.8em;
+}
+}
+
+@media screen and (max-width: 640px){
+.mee-servives {
+    width: 12% !important;
+}
+.three-one-image {
+    width: 104%;
+    float: left;
+    max-width: 316px;
+}
+#second {
+    position: relative;
+     top: 0px;
+}
+.topCentered{
+    font-size: 2.2em;
+}
+}
+@media screen and (min-width: 800px){
+    .m-academy img, .about-div img {
+        border-radius: 176px;
+    }
+    #second {
+        height: 1928px;
+    }
+    .three-two-image {
+        width: 100%;
+        background-image: radial-gradient(farthest-corner at 20% 50%, #ffffff, rgba(151,151,151,0.2));
+        border-radius: 189px;
+        padding: 20px;
+        max-width: 501px;
+        float: right;
+        bottom: 302px;
+    position: relative;
+    }
+    .three-one-image {
+         position: relative; 
+        top: 100px ;
+    max-width: 600px;
+width: 600px; 
+left:100px;
+z-index: 1;  }
+    }
+

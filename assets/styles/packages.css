@@ -11,6 +11,46 @@
     padding-top: 40px !important;
     padding-bottom: 10px !important;
 }
+.margin-top{
+    margin-top: 10px !important;
+}
+
 .loco h6{
     font-size: 13px;
+}
+.detail-for-pckg{
+    font-size: 0.9em;
+    text-align: left;
+    border: 1px solid #E0E0E0;
+    height: 250px;
+    overflow-y:scroll; 
+    padding: 20px;
+    border-radius: 20px;
+}
+.loco1 h5{
+    margin-top: 20px;
+}
+.border-left{
+    border-left: 1px solid #E0E0E0;
+}
+.btn-for-meez{
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+}
+@media screen and (max-width: 640px) {
+    .loco img{
+        width: 80%;
+        height: 100px;
+        margin: auto;
+    }
+    .loco h5{
+        font-size: 13px;
+    }
+    .loco1{
+    border: 1px solid #E0E0E0;
+    border-collapse: collapse;
+    }
+    .margin-top{
+        border: none !important; 
+    }
 }
