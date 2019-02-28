@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Meezab Air</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/styles/styles.css">
+  <link rel="stylesheet" href="assets/styles/dest_styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+<body>
+  <div id="overlay" onclick="closeNav(); closeDNav();"></div>
+  <header>
+
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url('assets/styles/image/tr/tr-ilk.png')">
+          <div class="carousel-caption  d-md-block">
+            <h2 class="color-blue">Explore</h2>
+            <h1 class="red-color">TURKEY</h1>
+            <button class="btn"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="myNav">
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav(); closeDNav();">&times;</a>
+      <div class="defaultnav" id="d-nav">
+        <a class="fofnav" href="index.html">HOME</a>
+        <a class="oofnav" href="about-us.html">ABOUT MEEZAB</a>
+        <a class="oofnav" id="dropdown-trigger" onclick="openDNav()" href="#">TRAVELS <i
+            class="fas fa-caret-down"></i></a>
+        <a class="oofnav" href="academy.html">MEEZAZB ACADEMY</a>
+        <a class="oofnav" href="news.html">NEWS</a>
+        <a class="oofnav" href="contact-us.html">CONTACT</a>
+      </div>
+      <div class="dropdown-container dis-none" id="s-nav">
+        <a class="fofnav" style="  visibility: hidden;" href="#">HOME</a>
+        <a style="  visibility: hidden;" class="oofnav" href="#">ABOUT MEEZAB</a>
+        <a class="oofnav" id="dropdown-trigger" onclick="closeDNav()" href="#">TRAVELS <i
+            class="fas fa-caret-right"></i></a>
+        <a class="oofnav soofnav" href="packages.html">PACKAGES</a>
+        <a class="oofnav soofnav" href="destination.html">DESTINATION</a>
+        <a class="oofnav soofnav" href="visa_information.html">VISA INFORMATION</a>
+        <a class="oofnav soofnav" href="#">VACATION BUILDER</a>
+      </div>
+      <li class="social-links-nav">
+        <a href=""> <i class="fab fa-linkedin"></i></a>
+        <a href=""> <i class="fab fa-facebook-square"></i></a>
+        <a href=""> <i class="fab fa-instagram"></i></a>
+        <a href=""> <i class="fab fa-youtube"></i></a>
+      </li>
+    </div>
+
+    <span class="ham-of-nav nav1" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    <span class="ham-of-nav insta">
+      <i class="fab fa-instagram"></i>
+    </span>
+  </div>
+  <div class="main-logo">
+    <img src="assets/styles/image/logo.svg" alt="">
+  </div>
+  <span class=" insta-formob">
+    <i class="fab fa-instagram" style="color:#316094"></i>
+  </span>
+  <div class="container fordestnew ">
+    <div class="row">
+      <div class="col-12 col-md-5 " style="text-align:center">
+        <img class="three-two-image" src="assets/styles/image/tr/ist/istanbul-cami.png" alt="">
+        <span class="for-img-modal" onclick="showds('0','istanbul')"
+          data-toggle="modal" data-target="#myModal">
+          <img src="assets/styles/image/tr/ist/grand-bazaar-istanbul-turkey.jpg" alt="">
+        </span>
+        <span class="for-img-modal" onclick="showds('1','istanbul')" data-toggle="modal"
+          data-target="#myModal">
+          <img src="assets/styles/image/tr/ist/Hagia.Sophia.jpg" alt="">
+        </span>
+        <span class="for-img-modal" onclick="showds('2','istanbul')" data-toggle="modal"
+          data-target="#myModal">
+          <img src="assets/styles/image/tr/ist/istanbul-Dolmabahce-sarayi.jpg" alt="">
+        </span>
+        <span class="for-img-modal" onclick="showds('3','istanbul')" data-toggle="modal"
+          data-target="#myModal">
+          <img src="assets/styles/image/tr/ist/istanbul-modern-museum.jpg" alt="">
+        </span>
+        <span class="for-img-modal" onclick="showds('4','istanbul')" data-toggle="modal"
+          data-target="#myModal">
+          <img src="assets/styles/image/tr/ist/Kiz-Kulesi-Istanbul-Turkey.jpg" alt="">
+        </span>
+      </div>
+      <div class="col-12 col-md-7 grid-div-two">
+        <h2>ISTANBUL</h2>
+        <p>Centuries ago Napoleon gave an interesting and quite famous line that still describes Istanbul probably in most beautiful way: "If the World would be one country, Istanbul would be its capital."</p>
+
+          <p> The fact that more than 7 million tourists visit this city every year is just fascinating. The cultural places such Hagia Sophia, Basilica Cistern, Blue Mosque or magnificent palaces such Dolmabahçe Sarayı or Topkapı Sarayı, make tourists from Far East or even South America to dare to begin the long journey into unknown land.</p>
+            
+          <p> Perfect place for long walks, tea time by seashore or great shopping of both unique souvenirs as well as the most expensive brands and all for really acceptable prices.</p>
+        
+          <p>  Much different than other European capitals, Istanbul is the city that has heart and the soul, beautiful spirit and incredibly nice and polite hosts. It doesn't matter if you are travelling there first or tenth time the feeling is always the same. If you haven't already, now it's the right time to put Istanbul to your bucket list.</p>
+          <h4 class="red-color">Famous Places</h4>
+          <div class="row">
+          <div class="col-12 col-md-5">
+            <ul class="meezab-thing">
+              <li>Hagia Sophia, Blue Mosque</li>
+              <li>Dolmabahce Sarayi, Topkapi Saray</li>
+              <li>Kız Kulesi (Maiden Tower)</li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-3">
+              <ul class="meezab-thing">
+                <li> Galata Tower</li>
+                <li>   Grand Bazaar</li>
+                <li>  Hippodrome</li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-4">
+                <ul class="meezab-thing">
+                  <li>Istanbul Modern Museum</li>
+                </ul>
+              </div>
+            </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- The Modal -->
+  <div class="modal fade bd-example-modal-lg" id="myModal">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <!-- Modal body -->
+        <div class="modal-body" id="new-modes">
+          Modal body..
+        </div>
+        <div class="modal-header" >
+         <span class="left-arrow" onclick="decre()"><i class="fas fa-arrow-left"></i></span>
+         <span class="right-arrow" onclick="incre()"><i class="fas fa-arrow-right"></i></span>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <footer id="myFooter">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-12">
+          <img class="log-foot" src="assets/styles/image/logo.svg" alt="">
+        </div>
+
+        <div class="col-12 col-md-3">
+          <h5>CONTACT US</h5>
+          <ul>
+            <li>+92 42 111-111-858</li>
+          </ul>
+
+          <h5>EMAIL</h5>
+          <ul>
+            <li>travels@meezabair.com</li>
+
+          </ul>
+        </div>
+        <div class="col-12 col-md-3">
+
+          <h5>SOCIAL MEDIA</h5>
+          <ul>
+            <li>
+              <i class="fab fa-linkedin" style="font-size:24px;margin:5px;"></i>
+              <i class="fab fa-facebook-square" style="font-size:24px;margin:5px;"></i>
+              <i class="fab fa-instagram" style="font-size:24px;margin:5px;"></i>
+              <i class="fab fa-youtube" style="font-size:24px;margin:5px;"></i>
+            </li>
+
+          </ul>
+
+        </div>
+        <div class="col-6 col-md-3">
+
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">DESTINATIONS</a></li>
+            <li><a href="#">PACKAGES</a></li>
+            <li><a href="#">MEEZAB ACADEMY</a></li>
+            <li style="line-height:1.5"><a href="#">VACATION BUILDER</a></li>
+            <li style="line-height:3.5; color:gray">Copyright 2019</li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-2">
+
+          <ul>
+            <li><a href="about-us.html">ABOUT MEEZAB</a></li>
+            <li><a href="#"> VISA INFORMATION</a></li>
+            <li><a href="#">NEWS</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li style="line-height:1.5; color:gray">Vevolve Design Studio</li>
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="assets/scripts/script1.js"> </script>
+
+</body>
+
+</html>

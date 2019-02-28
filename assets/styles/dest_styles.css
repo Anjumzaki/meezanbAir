@@ -1,0 +1,51 @@
+.for-img-modal img{
+    width: 70px;
+    height: 86px;
+    border-radius: 25px;
+    margin: 3px;
+    margin-top: 40px;
+}
+.for-img-modal{
+    background: none;
+}
+#new-modes img{
+    width: 100%;
+}
+.modal-header{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    font-size: 2em;
+    color: white;
+}
+.right-arrow{
+    right: 100% !important;
+}
+.fordestnew{
+    margin-top: 50px;
+}
+.grid-div-two p{
+    text-indent: 0px;
+    margin-top: 30px;
+}
+.meezab-thing{
+    margin: 0px !important;
+    padding: 0px;
+    font-size: 0.85em;
+}
+@media screen and (max-width: 640px){
+    .for-img-modal img{
+        width: 50px;
+        height: 60px;
+        border-radius: 20px;
+        margin: 1px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .modal-header{
+        
+        top: 35%;
+        width: 100%;
+        font-size: 1.5em;
+    }
+}

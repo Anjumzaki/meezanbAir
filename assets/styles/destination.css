@@ -1,10 +1,18 @@
 #second{
     position: relative;
     top: -500px;
+    z-index: 200;
 }
 .new1{
     left: 44%;
 }
+.topCentered{
+    color: white
+}
+.three-two-image{
+    z-index: 202;
+}
+
 @media screen and (min-width: 701px) and (max-width : 900px){
 #second {
     height: 2299px;
@@ -61,6 +69,6 @@ h1{
     max-width: 600px;
 width: 600px; 
 left:100px;
-z-index: 1;  }
+z-index: 203;  }
     }
 
