@@ -39,22 +39,6 @@ $(document).ready(function () {
     interval: 1500
   })
 });
-var places;
-var imgn;
-function showds(img, place) {
-  imgn = parseInt(img)
-  if (place == 'istanbul') {
-    places = [
-      'assets/styles/image/tr/ist/grand-bazaar-istanbul-turkey.jpg',
-      'assets/styles/image/tr/ist/Hagia.Sophia.jpg',
-      'assets/styles/image/tr/ist/istanbul-Dolmabahce-sarayi.jpg',
-      'assets/styles/image/tr/ist/istanbul-modern-museum.jpg',
-      'assets/styles/image/tr/ist/Kiz-Kulesi-Istanbul-Turkey.jpg',
-    ]
-  }
-  document.getElementById('new-modes').innerHTML = '<img ' + 'src= ' + '"' + places[imgn] + '"' + '/>'
-  return imgn
-}
 
 function incre() {
   if (imgn >= 4) {

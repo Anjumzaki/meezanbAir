@@ -33,6 +33,38 @@
     padding: 0px;
     font-size: 0.85em;
 }
+.margin-top{
+  
+    margin-top: 20px;
+}
+.margin-top1{
+    margin-top: 55px;
+}
+.modal-header{
+    border: none !important
+}
+.fordestnew div.row1{
+    border-bottom: 1px solid #CBCBCB;
+    padding-bottom: 60px;
+}
+.spec-but{
+   font-size: 2em;
+   padding: 20px;
+   margin-top: 30px;
+   min-width: 150px;
+}
+.spec-but1{
+    width:auto;
+    padding: 10px !important;
+    margin: 10px;
+    min-width: 250px;
+}
+.lastbtn{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
 @media screen and (max-width: 640px){
     .for-img-modal img{
         width: 50px;
@@ -42,10 +74,44 @@
         margin-top: 40px;
         margin-bottom: 40px;
     }
+    .lastbtn{
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+    .spec-but{
+        font-size: 1em;
+        padding: 20px;
+        margin-bottom: 30px;
+     }
+    .fordestnew div.row1{
+        padding-bottom: 20px;
+    }
+    .margin-top{
+        margin-top: 5px;
+        margin-bottom: 25px;
+    }
     .modal-header{
         
         top: 35%;
         width: 100%;
         font-size: 1.5em;
+    }
+    .carousel-caption {
+        position: absolute;
+        top: 13% !important;
+        width: 100%;
+    }
+    .meezab-thing{
+        margin-left: 20px !important;
+        font-size: 1em;
+    }
+}
+.three-two-image {
+    border-radius:105px !important;
+  }
+@media screen and (min-width: 801px) {
+  
+    .three-two-image {
+      border-radius:125px !important;
     }
 }
