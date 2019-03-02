@@ -1,0 +1,32 @@
+.img-responsive {
+    width: 90%;
+    padding: 12px;
+    border-radius: 102px;
+}
+.mg1{
+    margin-top: 100px;
+}
+.mg2{
+    margin-top: 60px;
+}
+.mg4{
+    margin-top: -60px;
+}
+
+@media screen and (max-width: 700px) {
+    .mg1{
+        margin-top: 0px;
+    }
+    .mg2{
+        margin-top: 0px;
+    }
+    .mg4{
+        margin-top: 0px;
+        width: 50% !important;
+        min-width: 50%;
+        max-width: 50%;
+        margin: auto;
+    }
+    
+     
+  }
