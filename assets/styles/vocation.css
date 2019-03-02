@@ -66,6 +66,13 @@ header{
     text-align: center;
     margin-top: 100px;
 }
+.btn-spec{
+    text-align: center;
+    margin-top: 50px;
+}
+.btn-for-meez{
+    min-width: 150px !important;
+}
 
 @media screen and (max-width:1200px) {
     .margin-top{
@@ -90,6 +97,7 @@ header{
             margin-top: 40px;
         }
         .text-indent{
+
             text-indent: 5% !important;
         }
 
@@ -111,6 +119,11 @@ header{
     }
     .voc-web{
         display: none;
+    }
+    .btn-for-meez{
+        min-width: 150px !important;
+        padding: 15px;
+        font-size: 15px;
     }
   
 }
