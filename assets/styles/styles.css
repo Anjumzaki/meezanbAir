@@ -479,7 +479,9 @@ body {
     .insta-formob{
       display: none !important;
     }
-    
+    footer{
+      margin-top: 100px !important;
+    }
      
   }
   #hotels12{
