@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meezab Air</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <link rel="stylesheet" href="assets/styles/dest_styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+<body>
+    <div id="overlay" onclick="closeNav(); closeDNav();"></div>
+    <header>
+
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <!-- Slide One - Set the background image for this slide in the line below -->
+                <div class="carousel-item active" 
+                    style="background-image: url('assets/styles/image/asia/baku/baku0.png')">
+                    <div class="carousel-caption  d-md-block">
+                        <h2 class="color-blue">Explore</h2>
+                        <h1 class="red-color">BAKU</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="myNav">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav(); closeDNav();">&times;</a>
+            <div class="defaultnav" id="d-nav">
+                <a class="fofnav" href="index.html">HOME</a>
+                <a class="oofnav" href="about-us.html">ABOUT MEEZAB</a>
+                <a class="oofnav" id="dropdown-trigger" onclick="openDNav()" href="#">TRAVELS <i
+                        class="fas fa-caret-down"></i></a>
+                <a class="oofnav" href="academy.html">MEEZAZB ACADEMY</a>
+                <a class="oofnav" href="news.html">NEWS</a>
+                <a class="oofnav" href="contact-us.html">CONTACT</a>
+            </div>
+            <div class="dropdown-container dis-none" id="s-nav">
+                <a class="fofnav" style="  visibility: hidden;" href="#">HOME</a>
+                <a style="  visibility: hidden;" class="oofnav" href="#">ABOUT MEEZAB</a>
+                <a class="oofnav" id="dropdown-trigger" onclick="closeDNav()" href="#">TRAVELS <i
+                        class="fas fa-caret-right"></i></a>
+                <a class="oofnav soofnav" href="packages.html">PACKAGES</a>
+                <a class="oofnav soofnav" href="destination.html">DESTINATION</a>
+                <a class="oofnav soofnav" href="visa_information.html">VISA INFORMATION</a>
+                <a class="oofnav soofnav" href="vocation1.html">VACATION BUILDER</a>
+            </div>
+            <li class="social-links-nav">
+                <a href=""> <i class="fab fa-linkedin"></i></a>
+                <a href=""> <i class="fab fa-facebook-square"></i></a>
+                <a href=""> <i class="fab fa-instagram"></i></a>
+                <a href=""> <i class="fab fa-youtube"></i></a>
+            </li>
+        </div>
+
+        <span class="ham-of-nav nav1" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+        <span class="ham-of-nav insta">
+            <i class="fab fa-instagram"></i>
+        </span>
+    </div>
+    <div class="main-logo">
+        <img src="assets/styles/image/logo.svg" alt="">
+    </div>
+    <span class=" insta-formob">
+        <i class="fab fa-instagram" style="color:#316094"></i>
+    </span>
+    <div class="container fordestnew ">
+        <div class="row ">
+                <div class="col-12 col-md-5 " style="text-align:center">
+                        <img class="three-two-image" src="assets/styles/image/asia/baku/teze_pir_mosque_Baku0.jpg" alt="">
+                        <span class="for-img-modal" onclick="showds('0','baku')" data-toggle="modal" data-target="#myModal">
+                            <img src="assets/styles/image/asia/baku/azerbaijan_state_carpet_museum_baku.jpg" alt="">
+                        </span>
+                        <span class="for-img-modal" onclick="showds('1','baku')" data-toggle="modal" data-target="#myModal">
+                            <img src="assets/styles/image/asia/baku/Baku_Funicular.jpg" alt="">
+                        </span>
+                        <span class="for-img-modal" onclick="showds('2','baku')" data-toggle="modal" data-target="#myModal">
+                            <img src="assets/styles/image/asia/baku/mini_venice_Baku.jpg" alt="">
+                        </span>
+                        <span class="for-img-modal" onclick="showds('3','baku')" data-toggle="modal" data-target="#myModal">
+                            <img src="assets/styles/image/asia/baku/nizami_street_Baku.jpg" alt="">
+                        </span>
+                     
+                        <div data-toggle="modal" data-target="#myModal" class="font-mons color-blue margin-top"
+                            onclick="showds('0','baku')"> <a> Click to view </a></div>
+                    </div>
+            <div class="col-12 col-md-7 grid-div-two">
+                <h2>Baku - <span>The city of Fire</span></h2>
+                <p>
+                    Baku is the largest cultural and industrial center of Azerbaijan. 
+                    It is located on the coast 
+                    of Caspian Sea and its known as one of the points where East meets West.
+                </p>
+                <p>
+                    City is generally divided in 3 major parts: The Ancient city (over 1000 years old), 
+                    Soviet built city and new part of city (modern Baku). 
+                    One of symbols of city and also focal point "Flame Towers" is the reason why Azerbaijan is called "Land of Fire" 
+                    and the city itself "The city of Fire". 
+
+                </p>
+                <p>
+                    Baku houses more than 30 affirmed museums and while travelling 
+                    there use the the privilege to visit some and learn about great history of the country.
+                    Our suggestion would include:
+                    The National Museum of History, State Museum of Art and Azerbaijan Carpet Museum.
+                </p>
+                <p> 
+                    Baku is very convenient for tourists and with its main metro line of 25 stations you can travel to most places in less than 0.15$. 
+                    And if you want more special ride through city there is always available excursion bus - "Baku City Bus." Fly with us to Baku and be one in 3 million of 
+                    tourists visiting this attractive place each year. 
+                </p>
+                <h4 class="red-color margin-top1">Famous Places</h4>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <ul class="meezab-thing">
+                            <li>Icheri Sheher <span>(Baku's Old Town)</span>   </li>
+                            <li>Maiden's Tower</li>
+                            <li>The Palace of the Shirvan Shahs
+                            <li>Nizami Street</li>
+                            <li>The Flame Towers</li>
+
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <ul class="meezab-thing">
+                            <li>National Flag Square and Baku Boulevard</li>
+                            <li>Mini Venice</li>
+                            <li>Teze Pir Mosque</li>
+                            <li>Baku Funicular</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+        <!-- The Modal -->
+        <div class="modal fade bd-example-modal-lg" id="myModal">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <!-- Modal body -->
+                    <div class="modal-body" id="new-modes">
+                        Modal body..
+                    </div>
+                    <div class="modal-header">
+                        <span class="left-arrow" onclick="decre()"><i class="fas fa-arrow-left"></i></span>
+                        <span class="right-arrow" onclick="incre()"><i class="fas fa-arrow-right"></i></span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="container lastbtn">
+            <div class="row">
+                <div class="col-12 col-md-8">
+                    <div class="btn-for-meez spec-but">BUILD YOUR VACATION</div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="btn-for-meez spec-but1">EXPLORE MORE</div>
+                    <div class="btn-for-meez spec-but1">VISA INFORMATION</div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        
+        <footer id="myFooter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12">
+                        <img class="log-foot" src="assets/styles/image/logo.svg" alt="">
+                    </div>
+
+                    <div class="col-12 col-md-3">
+                        <h5>CONTACT US</h5>
+                        <ul>
+                            <li>+92 42 111-111-858</li>
+                        </ul>
+
+                        <h5>EMAIL</h5>
+                        <ul>
+                            <li>travels@meezabair.com</li>
+
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-3">
+
+                        <h5>SOCIAL MEDIA</h5>
+                        <ul>
+                            <li>
+                                <i class="fab fa-linkedin" style="font-size:24px;margin:5px;"></i>
+                                <i class="fab fa-facebook-square" style="font-size:24px;margin:5px;"></i>
+                                <i class="fab fa-instagram" style="font-size:24px;margin:5px;"></i>
+                                <i class="fab fa-youtube" style="font-size:24px;margin:5px;"></i>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                    <div class="col-6 col-md-3">
+
+                        <ul>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">DESTINATIONS</a></li>
+                            <li><a href="#">PACKAGES</a></li>
+                            <li><a href="#">MEEZAB ACADEMY</a></li>
+                            <li style="line-height:1.5"><a href="#">VACATION BUILDER</a></li>
+                            <li style="line-height:3.5; color:gray">Copyright 2019</li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-2">
+
+                        <ul>
+                            <li><a href="about-us.html">ABOUT MEEZAB</a></li>
+                            <li><a href="#"> VISA INFORMATION</a></li>
+                            <li><a href="#">NEWS</a></li>
+                            <li><a href="#">CONTACT</a></li>
+                            <li style="line-height:1.5; color:gray">Vevolve Design Studio</li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <script src="assets/scripts/script1.js"> </script>
+        <script src="assets/scripts/dest_baku.js"></script>
+
+</body>
+
+</html>

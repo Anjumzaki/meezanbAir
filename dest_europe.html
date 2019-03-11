@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meezab Air</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <link rel="stylesheet" href="assets/styles/dest_styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+<body>
+    <div id="overlay" onclick="closeNav(); closeDNav();"></div>
+    <header>
+
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <!-- Slide One - Set the background image for this slide in the line below -->
+                <div class="carousel-item active"
+                    style="background-image: url('assets/styles/image/europe/eu_ilk.png')">
+                    <div class="carousel-caption  d-md-block">
+                        <h2 class="color-blue">Explore</h2>
+                        <h1 class="red-color">EUROPE</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="myNav">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav(); closeDNav();">&times;</a>
+            <div class="defaultnav" id="d-nav">
+                <a class="fofnav" href="index.html">HOME</a>
+                <a class="oofnav" href="about-us.html">ABOUT MEEZAB</a>
+                <a class="oofnav" id="dropdown-trigger" onclick="openDNav()" href="#">TRAVELS <i
+                        class="fas fa-caret-down"></i></a>
+                <a class="oofnav" href="academy.html">MEEZAZB ACADEMY</a>
+                <a class="oofnav" href="news.html">NEWS</a>
+                <a class="oofnav" href="contact-us.html">CONTACT</a>
+            </div>
+            <div class="dropdown-container dis-none" id="s-nav">
+                <a class="fofnav" style="  visibility: hidden;" href="#">HOME</a>
+                <a style="  visibility: hidden;" class="oofnav" href="#">ABOUT MEEZAB</a>
+                <a class="oofnav" id="dropdown-trigger" onclick="closeDNav()" href="#">TRAVELS <i
+                        class="fas fa-caret-right"></i></a>
+                <a class="oofnav soofnav" href="packages.html">PACKAGES</a>
+                <a class="oofnav soofnav" href="destination.html">DESTINATION</a>
+                <a class="oofnav soofnav" href="visa_information.html">VISA INFORMATION</a>
+                <a class="oofnav soofnav" href="vocation1.html">VACATION BUILDER</a>
+            </div>
+            <li class="social-links-nav">
+                <a href=""> <i class="fab fa-linkedin"></i></a>
+                <a href=""> <i class="fab fa-facebook-square"></i></a>
+                <a href=""> <i class="fab fa-instagram"></i></a>
+                <a href=""> <i class="fab fa-youtube"></i></a>
+            </li>
+        </div>
+
+        <span class="ham-of-nav nav1" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+        <span class="ham-of-nav insta">
+            <i class="fab fa-instagram"></i>
+        </span>
+    </div>
+    <div class="main-logo">
+        <img src="assets/styles/image/logo.svg" alt="">
+    </div>
+    <span class=" insta-formob">
+        <i class="fab fa-instagram" style="color:#316094"></i>
+    </span>
+    <div class="container fordestnew ">
+        <div class="row row1">
+                <div class="col-12 col-md-5 " style="text-align:center">
+                        <img class="three-two-image" src="assets/styles/image/europe/central_europe/fishermans-bastion0.jpg" alt="">
+                        <span class="for-img-modal" onclick="showds('0','cu')" data-toggle="modal" data-target="#myModal">
+                            <img src="assets/styles/image/europe/central_europe/oldtown_tower bridge.jpg" alt="">
+                        </span>
+                        <span class="for-img-modal" onclick="showds('1','cu')" data-toggle="modal" data-target="#myModal">
+                            <img src="assets/styles/image/europe/central_europe/Chain-Bridge-HDR.jpg" alt="">
+                        </span>
+                        <span class="for-img-modal" onclick="showds('2','cu')" data-toggle="modal" data-target="#myModal">
+                            <img src="assets/styles/image/europe/central_europe/prague-castle-czech-republic.jpg" alt="">
+                        </span>
+                        <span class="for-img-modal" onclick="showds('3','cu')" data-toggle="modal" data-target="#myModal">
+                            <img src="assets/styles/image/europe/central_europe/prague_walpaper.jpg" alt="">
+                        </span>
+                        <span class="for-img-modal" onclick="showds('3','cu')" data-toggle="modal" data-target="#myModal">
+                                <img src="assets/styles/image/europe/central_europe/kunstoriches_museum.jpg" alt="">
+                        </span>
+                        <div data-toggle="modal" data-target="#myModal" class="font-mons color-blue margin-top"
+                            onclick="showds('0','cu')"> <a> Click to view </a></div>
+                    </div>
+            <div class="col-12 col-md-7 grid-div-two">
+                <h2>CENTRAL EUROPE</h2>
+                <div class="col-12   margin-top1">
+                    <ul class="meezab-thing">
+                        <li>Hungary (Budapest) </li>
+                        <li> Czech Republic (Prague)</li>
+                        <li> Austria (Vienna)</li>
+                    </ul>
+                </div>
+                <p>For all those loving classical sights, the obvious looks of old heritage and calm streets, perfect
+                    place for nice moments of leisure are some of the cities in Central Europe. <br>
+
+                    Great opportunity and advantage that every traveler usually uses is the fact that these three famous
+                    destinations, old capitals are all located quite near to each other, just in the heart of Europe and
+                    when visiting one it comes somehow logical to go for the other two too. <br>
+
+                    Never too crowded as Paris or London; especially Budapest and Prague are homes to opera houses,
+                    wonderful bridges, dreamy coffee shops and Vienna is the home to the Europe's most beautiful palaces
+                    like the one dating to the time of Hapsburg rulers - famous Schönbrunn Palace that contains more
+                    than 1.400 rooms and is the true icon of Baroque style. It is also well known that Austria is one of
+                    the top destinations for winter tourism, having dozens of ski resorts including famous Kitzbühel.
+                </p>
+                <h4 class="red-color margin-top1">Famous Places</h4>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <ul class="meezab-thing">
+                            <li>Fisherman's Bastion</li>
+                            <li> Szechenyi Chain Bridge</li>
+                            <li> Heroes' Square</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <ul class="meezab-thing">
+
+                            <li>Schönbrunn Palace</li>
+                            <li> Belvedere Palace</li>
+                            <li> Vienna Kunstorisches Museum</li>
+
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <ul class="meezab-thing">
+                            <li>Old Town Tower Bridge</li>
+                            <li> Prague Castle</li>
+                            <li> Lennon Wall</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container fordestnew ">
+        <div class="row row1">
+            <div class="col-12 col-md-5 " style="text-align:center">
+                <img class="three-two-image" src="assets/styles/image/europe/southern_europe/florence_italy0.jpg" alt="">
+                <span class="for-img-modal" onclick="showds('0','ce')" data-toggle="modal" data-target="#myModal">
+                    <img src="assets/styles/image/europe/southern_europe/coloseum_rome.jpg" alt="">
+                </span>
+                <span class="for-img-modal" onclick="showds('1','ce')" data-toggle="modal" data-target="#myModal">
+                    <img src="assets/styles/image/europe/southern_europe/leaning_tower_pisa.jpg" alt="">
+                </span>
+                <span class="for-img-modal" onclick="showds('2','ce')" data-toggle="modal" data-target="#myModal">
+                    <img src="assets/styles/image/europe/southern_europe/parthenon_greece.jpg" alt="">
+                </span>
+                <span class="for-img-modal" onclick="showds('3','ce')" data-toggle="modal" data-target="#myModal">
+                    <img src="assets/styles/image/europe/southern_europe/sagrada_familia_barcelona.jpg" alt="">
+                </span>
+                <span class="for-img-modal" onclick="showds('4','ce')" data-toggle="modal" data-target="#myModal">
+                        <img src="assets/styles/image/europe/southern_europe/santorini.jpg" alt="">
+                </span>
+                <div data-toggle="modal" data-target="#myModal" class="font-mons color-blue margin-top"
+                    onclick="showds('0','ce')"> <a> Click to view </a></div>
+            </div>
+            <div class="col-12 col-md-7 grid-div-two">
+                <h2>SOUTHERN EUROPE</h2>
+                <div class="col-12  margin-top1">
+                    <ul class="meezab-thing">
+                        <li>Spain (Barcelona, Bilbao, Madrid) </li>
+                        <li> Italy (Florence, Venice, Rome) </li>
+                        <li> Greece (Athens, Crete, Santorini) </li>
+                    </ul>
+                </div>
+                <p>Relatively big area that Southern Europe occupies, make this part of Europe quite diverse because the
+                    countries and coasts sharing Mediterranean sea, all from far Portugal on the west till Turkey in the
+                    east are all having specific and unique cultures. <br>
+                    Antiquity mixed with modernity, a common past associated with old civilizations and world's most
+                    beautiful Cote d'Azur make Southern Europe look like real heaven in the eyes of any traveler. <br>
+                    Vibrant Barcelona, Eternal City-Rome or archaeological sites such Athens, Peloponnese or Crete which
+                    still magnify the glory of Ancient Greece will all simply make you feel that you are embracing the
+                    life and fill you with secret happiness that you face just when exploring new.</p>
+                <h4 class="red-color margin-top1">Famous Places</h4>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <ul class="meezab-thing">
+                            <li>Calle Mayor </li>
+                            <li> Royal Palace of Spain</li>
+                            <li> La Sagrada Familia</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <ul class="meezab-thing">
+
+                            <li>Colosseum
+                            <li> Vatican Museums </li>
+                            <li> Santa Maria del Fiore </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <ul class="meezab-thing">
+                            <li>Acropolis and Parthenon</li>
+                            <li> Santorini </li>
+                            <li> Park G�ell</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+        
+            <div class="container fordestnew ">
+                    <div class="row ">
+                            <div class="col-12 col-md-5 " style="text-align:center">
+                                    <img class="three-two-image" src="assets/styles/image/europe/western_europe/paris0.jpg" alt="">
+                                    <span class="for-img-modal" onclick="showds('0','cu')" data-toggle="modal" data-target="#myModal">
+                                        <img src="assets/styles/image/europe/western_europe/amsterdam.jpg" alt="">
+                                    </span>
+                                    <span class="for-img-modal" onclick="showds('1','cu')" data-toggle="modal" data-target="#myModal">
+                                        <img src="assets/styles/image/europe/western_europe/big ben.jpg" alt="">
+                                    </span>
+                                    <span class="for-img-modal" onclick="showds('2','cu')" data-toggle="modal" data-target="#myModal">
+                                        <img src="assets/styles/image/europe/western_europe/Atomium.jpg" alt="">
+                                    </span>
+                                    <span class="for-img-modal" onclick="showds('3','cu')" data-toggle="modal" data-target="#myModal">
+                                        <img src="assets/styles/image/europe/western_europe/louvre_museum.jpg" alt="">
+                                    </span>
+                                    <span class="for-img-modal" onclick="showds('3','cu')" data-toggle="modal" data-target="#myModal">
+                                            <img src="assets/styles/image/western_europe/disneyland.jpg" alt="">
+                                    </span>
+                                    <div data-toggle="modal" data-target="#myModal" class="font-mons color-blue margin-top"
+                                        onclick="showds('0','cu')"> <a> Click to view </a></div>
+                                </div>
+                        <div class="col-12 col-md-7 grid-div-two">
+                            <h2>WESTERN EUROPE</h2>
+                            <div class="col-12   margin-top1">
+                                <ul class="meezab-thing">
+                                    <li>UK  (London, Dublin, Edinburgh)  </li>
+                                    <li>       France  (Paris, Nice, Saint Trope)  </li>
+                                    <li>      Netherlands  (Amsterdam)  </li>
+                                           
+                                           
+                                          
+                                </ul>
+                            </div>
+                            <p>Western Europe is a vibrant center of modern culture, unique architecture and classical lifestyle. It is the main meeting point for artists, actors, fashion designers and all romantic souls. Definitely, its most famous and number one place to visit is capital of France-Paris. The City of Lights, City of Love and the place where so many nations live so closely, sharing their history and cultivating good relationships. London, more musically oriented offers probably more in this aspect than any other capital in Old continent. <br>
+                                    From the concert holes, theaters, night clubs till its famous old-fashion pubs, London is place for diverse activities and surely a point for cool and rich nightlife. On the other side, if you like to wander and you are true nature lover, Scotland and Ireland with its open cliffs and cold winds are ideal locations for your next travel. Smaller countries, the neighbors of France such Belgium and Netherlands should also take a place on "must visit" list, primarily because they are one of Europe's indigenous, classical locations with great infrastructure and epic buildings such Atomium and European Parliament.
+                            </p>
+                            <h4 class="red-color margin-top1">Famous Places</h4>
+                            <div class="row">
+                                <div class="col-12 col-md-4">
+                                    <ul class="meezab-thing">
+                                        <li>Eiffel Tower  </li>
+                                        <li>    Louvre Museum  </li>
+                                        <li>    Disneyland Paris  </li>
+                                               
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <ul class="meezab-thing">
+            
+                                        <li>Winsdor Castle </li>
+                                        <li>   Westminster Abbey </li>
+                                        <li>    Big Ben </li>
+            
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <ul class="meezab-thing">
+                                        <li>Guinness Storehouse Dublin </li>
+                                        <li>   Atomium Brussels </li>
+                                        <li>    Van Gogh Museum </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+        <!-- The Modal -->
+        <div class="modal fade bd-example-modal-lg" id="myModal">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <!-- Modal body -->
+                    <div class="modal-body" id="new-modes">
+                        Modal body..
+                    </div>
+                    <div class="modal-header">
+                        <span class="left-arrow" onclick="decre()"><i class="fas fa-arrow-left"></i></span>
+                        <span class="right-arrow" onclick="incre()"><i class="fas fa-arrow-right"></i></span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="container lastbtn">
+            <div class="row">
+                <div class="col-12 col-md-8">
+                    <div class="btn-for-meez spec-but">BUILD YOUR VACATION</div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="btn-for-meez spec-but1">EXPLORE MORE</div>
+                    <div class="btn-for-meez spec-but1">VISA INFORMATION</div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        
+        <footer id="myFooter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12">
+                        <img class="log-foot" src="assets/styles/image/logo.svg" alt="">
+                    </div>
+
+                    <div class="col-12 col-md-3">
+                        <h5>CONTACT US</h5>
+                        <ul>
+                            <li>+92 42 111-111-858</li>
+                        </ul>
+
+                        <h5>EMAIL</h5>
+                        <ul>
+                            <li>travels@meezabair.com</li>
+
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-3">
+
+                        <h5>SOCIAL MEDIA</h5>
+                        <ul>
+                            <li>
+                                <i class="fab fa-linkedin" style="font-size:24px;margin:5px;"></i>
+                                <i class="fab fa-facebook-square" style="font-size:24px;margin:5px;"></i>
+                                <i class="fab fa-instagram" style="font-size:24px;margin:5px;"></i>
+                                <i class="fab fa-youtube" style="font-size:24px;margin:5px;"></i>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                    <div class="col-6 col-md-3">
+
+                        <ul>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">DESTINATIONS</a></li>
+                            <li><a href="#">PACKAGES</a></li>
+                            <li><a href="#">MEEZAB ACADEMY</a></li>
+                            <li style="line-height:1.5"><a href="#">VACATION BUILDER</a></li>
+                            <li style="line-height:3.5; color:gray">Copyright 2019</li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-2">
+
+                        <ul>
+                            <li><a href="about-us.html">ABOUT MEEZAB</a></li>
+                            <li><a href="#"> VISA INFORMATION</a></li>
+                            <li><a href="#">NEWS</a></li>
+                            <li><a href="#">CONTACT</a></li>
+                            <li style="line-height:1.5; color:gray">Vevolve Design Studio</li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <script src="assets/scripts/script1.js"> </script>
+        <script src="assets/scripts/dest_europe.js"></script>
+
+</body>
+
+</html>

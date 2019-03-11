@@ -407,12 +407,17 @@ body {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+ 
   @media screen and (min-width: 801px) {
   #third-div{
     margin-bottom: -100px;
   }
   .m-academy img,.about-div img{
-    border-radius:125px;
+    border-radius:156px;
   }
   
   
@@ -487,13 +492,16 @@ body {
   #hotels12{
     display: none;
   }
+  @media screen and (max-width: 800px) {
+    #hotelsforweb{
+      display: none;
+    }
+  }
   @media screen and (max-width: 640px) {
     #hotels12{
       display: inline-block;
     }
-    #hotelsforweb{
-      display: none;
-    }
+   
    
     .fofnav{
       margin-top: 50%;

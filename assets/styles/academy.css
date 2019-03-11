@@ -11,6 +11,10 @@
     border-radius: 50px;
     text-indent: 30px;
 }
+.academy{
+    margin-bottom: -296px !important;
+    padding-bottom: 200px;
+}
 .forinput textarea{
     width: 100%;
     background-color: white;
@@ -35,6 +39,10 @@
  
         margin: 20px 5px;
   
+    }
+    .academy{
+        margin-bottom: -106px;
+        padding-bottom: 150px;
     }
     .forinput textarea{
      
